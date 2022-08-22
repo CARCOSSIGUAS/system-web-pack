@@ -1,20 +1,26 @@
 {
   "compilerOptions": {
     "target": "es6",
-    "module": "esnext",
-    "jsx": "react",
+    "module": "commonjs",
+    "jsx": "react-jsx",
     "lib": ["dom", "es2015", "es2016"],
     "declaration": true,
-    "declarationDir": "types",
     "sourceMap": true,
-    "outDir": "dist",
+    "outDir": "./lib",
+    "removeComments": true,
     "strict": true,
-    "moduleResolution": "node",
-    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
     "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "emitDeclarationOnly": true
+    "allowSyntheticDefaultImports": true
   },
   "exclude": ["node_modules"],
+  "include": ["src", "types"]
 }

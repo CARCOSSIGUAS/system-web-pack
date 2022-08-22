@@ -1,1 +1,0 @@
-{"version":3,"file":"index.js","sources":["../../src/components/Button/Button.tsx"],"sourcesContent":[null],"names":["Button","label","React","createElement","BsButton"],"mappings":"2DAIA,MAAMA,EAAS,EAAGC,WAAwBC,EAACC,cAAAC,EAAU,KAAAH"}
