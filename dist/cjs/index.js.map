@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["../../src/components/Button/Button.tsx"],"sourcesContent":[null],"names":["label","React","createElement","BsButton"],"mappings":"wOAIe,EAAGA,WAAwBC,EAAC,QAAAC,cAAAC,EAAAA,QAAU,KAAAH"}
